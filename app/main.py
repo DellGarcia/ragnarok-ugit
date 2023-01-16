@@ -6,3 +6,4 @@ def start():
 
 	while True:
 		led.value(not led.value())
+		sleep(1)

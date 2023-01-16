@@ -22,7 +22,7 @@ def connectToWifiAndUpdate():
         gc.collect()
 
 def startApp():
-	from app import start
+	from app.main import start
 
 	start()
 
